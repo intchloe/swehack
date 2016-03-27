@@ -15,10 +15,6 @@ function submit_by_id() {
 
 var t = document.getElementById('message').value; 
 if (!t.startsWith("-----BEGIN PGP MESSAGE-----")) { 
-  var r = confirm("Du skickar detta meddelande i klartext! Kolla på mottagarens profil om du kan hitta medlemmens Keybase och kryptera meddelandet med deras nyckel. Vill du skicka det ändå?"); 
-  if (r == true) { 
-  	return true
-  }
-  return false;
+  return confirm("Du skickar detta meddelande i klartext! Kolla på mottagarens profil om du kan hitta medlemmens Keybase och kryptera meddelandet med deras nyckel. Vill du skicka det ändå?"); 
   }
 }
