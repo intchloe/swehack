@@ -6,7 +6,7 @@ swehack.org configuration and information
 * No logging
 * Auto remove private messages after X days
 * Techniques to fight onion-rewriting
-* Check if private messages are PGP-encrypted (see check_pgp.js)
+* Check if private messages are PGP-encrypted (see [check_pgp.js](https://github.com/intchloe/swehack/blob/master/check_pgp.js))
 * Check if the user is using our domains (and not onion.cab/link, Tor2Web) (see check_domain.js)
 * Eliminate disclosure-attacks by giving a neutral answer on forgot password, registration and login
 * Dynamic CSP
